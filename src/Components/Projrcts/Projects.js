@@ -12,7 +12,7 @@ const Projects = () => {
 
 
     return (
-        <div className='text-base my-16 text-white container lg:w-[1200px] mx-auto '>
+        <div className='text-base my-16 text-white container lg:w-[1200px] mx-auto' id='section-ii'>
             <div className=''>
                 <h3 className='text-3xl font-mod'>Selected Projects</h3>
             </div>

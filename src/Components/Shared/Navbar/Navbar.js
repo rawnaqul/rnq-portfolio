@@ -7,9 +7,9 @@ const Navbar = () => {
 
     const menuItem = <React.Fragment>
         <ul className='flex items-center text-white'>
-            <li className='menu-link-mod'><Link>Projects</Link></li>
+            <li className='menu-link-mod'><a href='#section-ii'>Projects</a></li>
             <li className='menu-link-mod'><a href='https://drive.google.com/file/d/1FEZP6ZEfsfKjG2DC-fLKCPPMjjMZzFUl/view?usp=share_link' target="_blank" rel='noreferrer'>Resume</a></li>
-            <li><a href='https://drive.google.com/file/d/1FEZP6ZEfsfKjG2DC-fLKCPPMjjMZzFUl/view?usp=share_link' rel='noreferrer' target="_blank" className='menu-link-mod normal-case rounded-md bg-[#3D3D3D] hover:opacity-80'>Say Hi!</a></li>
+            <li><a href='#section-cta' rel='noreferrer' className='menu-link-mod normal-case rounded-md bg-[#3D3D3D] hover:opacity-80'>Say Hi!</a></li>
         </ul>
     </React.Fragment>
     return (
