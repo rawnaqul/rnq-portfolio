@@ -3,7 +3,7 @@ import heroimage from '../../assets/Hero-background.jpg'
 
 const HeroSection = () => {
     return (
-        <div>
+        <div className='mt-12'>
             <div className='grid mx-auto'>
                 <p className='text-base mt-16 text-white container lg:w-[1200px] mx-auto p-1'>W E L C O M E <span className=' text-[17px] animate-pulse'>!</span></p>
                 <br />

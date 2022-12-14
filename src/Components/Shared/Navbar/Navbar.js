@@ -8,7 +8,7 @@ const Navbar = () => {
 
     const menuItem = <React.Fragment>
         <ul className='flex items-center text-white'>
-            <li className='menu-link-mod hover:text-blue-400 hover:text-opacity-90 transition duration-300 ease-out'>
+            <li className='menu-link-mod hover:text-blue-400 hover:text-opacity-90 transition duration-300 ease-out active:text-green-500'>
                 <Link href='#section-ii'
                     activeClass="active"
                     to="section-ii"
@@ -26,11 +26,11 @@ const Navbar = () => {
                     offset={0}
                     duration={700}>Blog</Link>
             </li>
-            <li className='menu-link-mod hover:text-blue-400 hover:text-opacity-90 transition duration-300 ease-out'>
+            <li className='menu-link-mod hover:text-blue-400 hover:text-opacity-90 transition duration-300 ease-out active:text-green-500'>
                 <a href='https://drive.google.com/file/d/1FEZP6ZEfsfKjG2DC-fLKCPPMjjMZzFUl/view?usp=share_link' target="_blank" rel='noreferrer'>Resume</a>
             </li>
             <li>
-                <Link href='#section-cta' rel='noreferrer' className='menu-link-mod normal-case rounded-md bg-[#3D3D3D] hover:opacity-80 transition duration-300 ease-out'
+                <Link href='#section-cta' rel='noreferrer' className='menu-link-mod normal-case rounded-md bg-[#3D3D3D] hover:opacity-80 transition duration-300 ease-out active:bg-green-500'
                     activeClass="active"
                     to="section-cta"
                     spy={true}
@@ -42,12 +42,14 @@ const Navbar = () => {
         </ul>
     </React.Fragment>
     return (
-        <div className='container mx-auto flex justify-between items-center lg:w-[1200px] py-3'>
-            <div className=''>
-                <img src={logo} alt='logo' className='w-3/5'></img>
-            </div>
-            <div className='text-sm'>
-                {menuItem}
+        <div className='fixed top-0 left-0 right-0 z-50 bg-black'>
+            <div className='container mx-auto flex justify-between items-center lg:w-[1200px] py-3'>
+                <div className=''>
+                    <img src={logo} alt='logo' className='w-3/5'></img>
+                </div>
+                <div className='text-sm'>
+                    {menuItem}
+                </div>
             </div>
         </div>
     );

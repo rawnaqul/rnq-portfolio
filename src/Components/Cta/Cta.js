@@ -3,7 +3,7 @@ import React from 'react';
 const Cta = () => {
     return (
         <div className='container lg:w-[1200px] mx-auto p-8' id='section-cta'>
-            <h2 className='font-mod text-3xl  text-white mb-8'>Let's work together!</h2>
+            <h2 className='font-mod text-3xl  text-white mb-8 animate-pulse'>Let's work together!</h2>
             <p className='text-sm text-slate-100 mb-5'>My keen interest in programming and design helps me find creative solutions to technical challenges and develop visually appealing websites. I may not have that much experience but I have a strong understanding in this field and would welcome the chance to bring those skills to your projects, so let's work together!</p>
             <div>
                 <form className='grid'>
