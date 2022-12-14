@@ -3,30 +3,30 @@
     "name": "Bookish",
     "id": "001",
     "category": "React App",
-    "image": "../src/assets/bookish-hero-img(Screenshot 2022-12-11 013142).jpg",
+    "image": "./assets/bookish-hero-img(Screenshot 2022-12-11 013142).jpg",
     "description": "",
     "details": "I did this project under programming hero's supervision to demonstrate few basic functionality of ReactJS.",
-    "color": "#a68663",
+    "color": "bg-primary",
     "link": "https://bookish-c5f18.web.app/"
   },
   {
-    "name": "Bookish",
+    "name": "Pagla Catering",
     "id": "002",
     "category": "React App",
-    "image": "",
+    "image": "./assets/pagla-catering-hero-img(Screenshot 2022-12-11 013356).jpg",
     "description": "",
     "details": "I did this project under programming hero's supervision to demonstrate few basic functionality of ReactJS.",
-    "color": "#a68663",
-    "link": "https://bookish-c5f18.web.app/"
+    "color": "bg-secondary",
+    "link": "https://ass-11-client.web.app/"
   },
   {
     "name": "Bookish",
     "id": "003",
     "category": "React App",
-    "image": "",
+    "image": "./assets/sera-course(Screenshot 2022-12-14).jpg",
     "description": "",
     "details": "I did this project under programming hero's supervision to demonstrate few basic functionality of ReactJS.",
-    "color": "#a68663",
+    "color": "bg-accent",
     "link": "https://bookish-c5f18.web.app/"
   }
 ]

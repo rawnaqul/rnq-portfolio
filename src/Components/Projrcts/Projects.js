@@ -12,16 +12,16 @@ const Projects = () => {
 
 
     return (
-        <div className='text-base mt-16 text-white container lg:w-[1200px] mx-auto'>
-            <div>
+        <div className='text-base my-16 text-white container lg:w-[1200px] mx-auto '>
+            <div className=''>
                 <h3 className='text-3xl font-mod'>Selected Projects</h3>
             </div>
-            <div>
+            <div className='mb-8'>
                 <p>I've done some projects for show-casing purposes, here are a selected few. </p>
             </div>
             <div>
                 {
-                    projectData.map(project => <Project key={project.id} project={project}></Project>)
+                    projectData.map(project => <Project key={project.id} project={project} colorcode={project.color}></Project>)
                 }
             </div>
         </div>
