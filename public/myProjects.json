@@ -7,6 +7,7 @@
     "description": "",
     "details": "I did this project under programming hero's supervision to demonstrate few basic functionality of ReactJS.",
     "color": "bg-primary",
+    "mod": "color-cust-i",
     "link": "https://bookish-c5f18.web.app/"
   },
   {
@@ -17,16 +18,29 @@
     "description": "",
     "details": "I did this project under programming hero's supervision to demonstrate few basic functionality of ReactJS.",
     "color": "bg-secondary",
+    "mod": "color-cust-ii",
     "link": "https://ass-11-client.web.app/"
   },
   {
-    "name": "Bookish",
+    "name": "Sera Course",
     "id": "003",
     "category": "React App",
     "image": "./assets/sera-course(Screenshot 2022-12-14).jpg",
     "description": "",
     "details": "I did this project under programming hero's supervision to demonstrate few basic functionality of ReactJS.",
     "color": "bg-accent",
+    "mod": "color-cust-iii",
     "link": "https://bookish-c5f18.web.app/"
+  },
+  {
+    "name": "Team Collaboration Site",
+    "id": "004",
+    "category": "Webflow",
+    "image": "./assets/Team-Chat(Screenshot 2022-12-14 ).jpg",
+    "description": "",
+    "details": "I did this while I was learnig no code wesite building via Webflow.",
+    "color": "bg-accent",
+    "mod": "color-cust-iv",
+    "link": "https://team-chat-web.webflow.io/"
   }
 ]
