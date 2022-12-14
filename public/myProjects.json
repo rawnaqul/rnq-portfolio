@@ -3,7 +3,7 @@
     "name": "Bookish",
     "id": "001",
     "category": "React App",
-    "image": "",
+    "image": "../src/assets/bookish-hero-img(Screenshot 2022-12-11 013142).jpg",
     "description": "",
     "details": "I did this project under programming hero's supervision to demonstrate few basic functionality of ReactJS.",
     "color": "#a68663",
