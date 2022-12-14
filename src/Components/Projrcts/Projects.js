@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Project from './Project';
 
+
 const Projects = () => {
     const [projectData, setProjectData] = useState([]);
     useEffect(() => {

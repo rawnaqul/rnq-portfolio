@@ -1,3 +1,7 @@
 .font-mod {
   font-family: 'DM Serif Display', serif;
 }
+
+#root {
+  scroll-behavior: smooth;
+}

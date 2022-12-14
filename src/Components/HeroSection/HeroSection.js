@@ -5,10 +5,10 @@ const HeroSection = () => {
     return (
         <div>
             <div className='grid mx-auto'>
-                <p className='text-base mt-16 text-white container lg:w-[1200px] mx-auto'>W E L C O M E !</p>
+                <p className='text-base mt-16 text-white container lg:w-[1200px] mx-auto p-1'>W E L C O M E <span className=' text-[17px] animate-pulse'>!</span></p>
                 <br />
                 <div className='container lg:w-[1200px] mx-auto text-5xl font-mod'>
-                    <h5 className='w-96 text-slate-50'>I elevate UX using telekinesis.</h5>
+                    <h5 className='w-96 text-slate-50 animate-pulse'>I elevate UX using telekinesis.</h5>
                 </div>
                 <br />
                 <div>
