@@ -13,7 +13,7 @@ const Project = ({ project, colorcode }) => {
                 <h5 className='mb-5 text-base font-semibold'>{category}</h5>
                 <h3 className='font-mod text-2xl my-5'>{name}</h3>
                 <p>{details}</p>
-                <a href={link} className='fixed top-0 left-0 right-0'>Live Site</a>
+                <a href={link} className='absolute bottom-0 mb-8 border p-1 hover:bg-slate-300 hover:text-black' target='_blank' rel='noreferrer'>Live Site</a>
             </div>
             <div className='col-span-7 '>
                 <img src={image} alt='project SS'></img>
